@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://shloimimink1215:sm12151988@devconnector-7rmam.mongodb.net/test?retryWrites=true"
+  "mongoURI": "mongodb+srv://shloimimink1215:sm12151988@devconnector-7rmam.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "mysercrettoken"
 }
