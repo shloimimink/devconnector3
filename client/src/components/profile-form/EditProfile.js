@@ -71,14 +71,14 @@ const EditProfile = ({profile: {profile, loading}, createProfile, getCurrentProf
                 Create Your Profile
             </h1>
             <p className="lead">
-                <i className="fas fa-user"></i> Let's get some information to make your
+                <i className="fas fa-user"/> Let's get some information to make your
                 profile stand out
             </p>
             <small>* = required field</small>
             <form className="form" onSubmit={e => onSubmit(e)}>
                 <div className="form-group">
                     <select name="status" value={status} onChange={e => onChange(e)}>
-                        <option value="0">* Select Professional Status</option>
+                        <option>* Select Professional Status</option>
                         <option value="Developer">Developer</option>
                         <option value="Junior Developer">Junior Developer</option>
                         <option value="Senior Developer">Senior Developer</option>
