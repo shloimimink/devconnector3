@@ -1,5 +1,5 @@
 import React, {Fragment, useState} from 'react';
-import {Link, withRouter} from "react-router-dom";
+import {withRouter} from "react-router-dom";
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
 import {createProfile} from "../../actions/profile";
@@ -51,7 +51,7 @@ const CreateProfile = ({createProfile, history}) => {
                 Create Your Profile
             </h1>
             <p className="lead">
-                <i className="fas fa-user"></i> Let's get some information to make your
+                <i className="fas fa-user"/> Let's get some information to make your
                 profile stand out
             </p>
             <small>* = required field</small>

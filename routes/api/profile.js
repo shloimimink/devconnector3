@@ -7,6 +7,7 @@ const {check, validationResult} = require('express-validator/check');
 
 const Profile = require('../../models/Profile');
 const User = require('../../models/User');
+const Post = require('../../models/Post');
 
 
 // @route  GET api/profile/me
@@ -81,20 +82,12 @@ router.post('/', [auth, [
 
 
         try {
-            let profile = await Profile.findOne({user: req.user.id});
-
-            if (profile) {
-                // Update 
-                const profile = await Profile.findOneAndUpdate(
-                    {user: req.user.id},
-                    {$set: profileFields},
-                    {new: true}
-                )
-            }
-            // Create
-            profile = new Profile(profileFields);
-
-            await profile.save();
+            //Using upsert option (creates new doc if no match is found):
+            let profile = await Profile.findOneAndUpdate(
+                {user: req.user.id},
+                {$set: profileFields},
+                {new: true, upsert: true}
+            );
             res.json(profile);
         } catch (err) {
             console.error(err.message);
@@ -141,7 +134,8 @@ router.get('/user/:user_id', async (req, res) => {
 // @access Private
 router.delete('/', auth, async (req, res) => {
     try {
-        // @todo - remove users posts
+        // Remove user posts
+        await Post.deleteMany({user: req.user.id});
         // Remove profile
         await Profile.findOneAndRemove({user: req.user.id});
         // Remove user
