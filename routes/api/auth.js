@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const auth = require('../../middlewhare/auth');
+const auth = require('../../middleware/auth');
 const config = require('config');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -62,7 +62,7 @@ router.post('/', [
         console.error(err.message);
         req.status(500).send('Server error');
     }
-    
+
 });
 
 module.exports = router;
