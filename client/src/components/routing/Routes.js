@@ -1,6 +1,5 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom'
-import Alert from "../../App";
 import Register from "../auth/Register";
 import Login from "../auth/Login";
 import Profiles from "../profiles/Profiles";
@@ -14,6 +13,8 @@ import Post from "../post/Post";
 import AddEducation from "../profile-form/AddEducation";
 import NotFound from "../layout/NotFound";
 import PrivateRoute from "./PrivateRoute";
+import Alert from "../layout/Alert";
+
 
 const Routes = () => {
     return (
