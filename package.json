@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "test": "NODE_ENV=test mocha --reporter spec",
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
