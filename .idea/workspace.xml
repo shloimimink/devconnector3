@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c3449b-9f02-4093-9400-f3690e450b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/heroku/Uninstall.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/bin/heroku" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/bin/heroku.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/bin/heroku" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/bin/heroku.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/bin/node.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/bin/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/analytics.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/deps.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/deps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/file.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/init/version.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/init/version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/prerun/analytics.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/prerun/analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/b.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/brew.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/brew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/completions.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/completions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/plugin-migrate.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/plugin-migrate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/tidy.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/hooks/update/tidy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/user-config.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/lib/user-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/oclif.manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku/client/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="176">
+              <caret line="31" column="70" lean-forward="true" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -80,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/default.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -151,10 +113,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client/src/components/profile-form/CreateProfile.js" />
         <option value="$PROJECT_DIR$/client/src/App.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/config/production.json" />
         <option value="$PROJECT_DIR$/config/default.json" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -247,7 +209,7 @@
       <workItem from="1565716507390" duration="2660000" />
       <workItem from="1565721617559" duration="121000" />
       <workItem from="1565730197276" duration="175000" />
-      <workItem from="1565745733896" duration="775000" />
+      <workItem from="1565745733896" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="like-unlike-delete-posts">
       <created>1565280543135</created>
@@ -281,13 +243,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60496000" />
+    <option name="totallyTimeSpent" value="61120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1917" y="-157" width="1917" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17774262" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17774262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -301,11 +263,31 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46904513" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052744" side_tool="true" weight="0.35047218" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994726" visible="true" weight="0.41867787" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994726" visible="true" weight="0.6810073" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17774262" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843652" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.46904513" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052744" side_tool="true" weight="0.35047218" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994726" visible="true" weight="0.96852046" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -722,10 +704,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/heroku/bin/heroku">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/default.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -736,20 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/bin/heroku">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/default.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="176">
+          <caret line="31" column="70" lean-forward="true" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
         </state>
       </provider>
     </entry>
