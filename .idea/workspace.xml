@@ -3,45 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9c3449b-9f02-4093-9400-f3690e450b29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/Uninstall.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/bin/heroku" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/bin/heroku.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/bin/heroku" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/bin/heroku.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/bin/node.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/bin/run" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/analytics.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/deps.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/deps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/file.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/file.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/init/version.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/init/version.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/prerun/analytics.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/prerun/analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/b.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/brew.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/brew.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/completions.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/completions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/plugin-migrate.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/plugin-migrate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/tidy.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/hooks/update/tidy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/user-config.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/lib/user-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/oclif.manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku/client/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,38 +16,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/routing/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="453">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="300">
+              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/production.json">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/default.json">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="585">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#283#320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/layout/Navbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,18 +127,18 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client/src/components/profile-form/CreateProfile.js" />
-        <option value="$PROJECT_DIR$/client/src/App.js" />
         <option value="$PROJECT_DIR$/config/production.json" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/heroku/client/lib/index.js" />
         <option value="$PROJECT_DIR$/config/default.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1917" />
-    <option name="y" value="-157" />
+    <option name="y" value="-96" />
     <option name="width" value="1917" />
     <option name="height" value="1045" />
   </component>
@@ -176,6 +157,40 @@
             <path>
               <item name="devConnector3" type="b2602c69:ProjectViewProjectNode" />
               <item name="devConnector3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="devConnector3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="devConnector3" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="devConnector3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="devConnector3" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="devConnector3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="devConnector3" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="devConnector3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="devConnector3" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="devConnector3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="devConnector3" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="routing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +259,8 @@
       <workItem from="1565716507390" duration="2660000" />
       <workItem from="1565721617559" duration="121000" />
       <workItem from="1565730197276" duration="175000" />
-      <workItem from="1565745733896" duration="2709000" />
+      <workItem from="1565745733896" duration="3608000" />
+      <workItem from="1565795610883" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="like-unlike-delete-posts">
       <created>1565280543135</created>
@@ -278,13 +294,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62430000" />
+    <option name="totallyTimeSpent" value="64477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1917" y="-157" width="1917" height="1045" extended-state="0" />
+    <frame x="-1917" y="-96" width="1917" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17774262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17774262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -298,7 +314,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.46904513" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052744" side_tool="true" weight="0.35047218" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994726" weight="0.5865687" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994726" visible="true" weight="0.3809024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -568,16 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/layout/Landing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -642,27 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#232#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/routing/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/profile-form/EditProfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2752">
@@ -686,13 +671,6 @@
     <entry file="file://$PROJECT_DIR$/client/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -700,32 +678,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/bin/heroku">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/client/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/client/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/client/lib/user-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/client/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/heroku/bin/heroku" />
+    <entry file="file://$PROJECT_DIR$/heroku/client/CHANGELOG.md" />
+    <entry file="file://$PROJECT_DIR$/heroku/client/package.json" />
+    <entry file="file://$PROJECT_DIR$/heroku/client/lib/user-config.js" />
+    <entry file="file://$PROJECT_DIR$/heroku/client/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/config/default.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -740,17 +697,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="404">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#283#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/routing/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
