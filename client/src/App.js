@@ -31,7 +31,7 @@ const App = () => {
                         <Route component={Routes} />
                     </Switch>
                 </Fragment>
-            </Router>;
+            </Router>
         </Provider>
     )
 };

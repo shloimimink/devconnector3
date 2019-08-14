@@ -18,7 +18,7 @@ app.use('/api/profile', require('./routes/profile'));
 app.use('/api/posts', require('./routes/posts'));
 
 
-// Serve static assets in production
+// Serve static assets in productionheroku open
 if (process.env.NODE_ENV === 'production') {
     // Set static folder
     app.use(express.static('client/build'));
